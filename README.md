@@ -1,22 +1,9 @@
-# Semi-visible Jets MC Production
+# Template PyPI package maker
 
-This package creates MadGraph tarballs and is capable of running the full simulation up to NanoAOD.
+Sets up a basic python package skeleton, including common package files and a minimal python package with a `logger` and a `utils` file.
 
-Heavily based on:
-
-https://github.com/kpedro88/SVJProduction
-
-https://github.com/eshwen/SemivisibleJets
-
-
-## Installation
+## Usage
 
 ```
-git clone https://github.com/tklijnsma/svjgenprod.git
-source svjgenprod/env.sh
-pip install --user -e svjgenprod
+setup-pypi-package <package name>
 ```
-
-TODO: `requirements.txt`, dependencies not installed automatically at the moment.
-
-TODO: `MANIFEST.in`, input files now not bundled in PyPI package.
